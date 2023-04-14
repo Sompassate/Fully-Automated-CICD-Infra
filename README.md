@@ -1,4 +1,7 @@
-# devops-fully-automated-infra
+CICD.png![image](https://user-images.githubusercontent.com/103976176/231930661-71f3360c-08b1-431c-ab6f-96d6a284ce92.png)
+
+
+# Fully-Automated-CICD-Infra
 Fully automated and secured Terraform infra pipeline
 
 Testing teh webhook.....
@@ -81,7 +84,7 @@ Testing teh webhook.....
 ### GitHub webhook
 
 1) #### Add jenkins webhook to github
-    - Access your repo **devops-fully-automated-infra** on github
+    - Access your repo **Fully-Automated-CICD-Infra** on github
     - Goto Settings --> Webhooks --> Click on Add webhook 
     - Payload URL: **htpp://REPLACE-JENKINS-SERVER-PUBLIC-IP:8080/github-webhook/**             (Note: The IP should be public as GitHub is outside of the AWS VPC where Jenkins server is hosted)
     - Click on Add webhook
